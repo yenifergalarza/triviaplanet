@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|ZCOOL+KuaiLe');
+ *{
+     margin: 0%;
+     padding: 0%;
+     font-family: 'Roboto', sans-serif;
+ }
+ body {
+    background-image: url(https://i.pinimg.com/originals/95/d4/7d/95d47de7fe55f9bcd4108c3411e26838.jpg);
+    background-size: 100%;
+    object-fit: fill; 
+    background-repeat: repeat-y;
+    
+}
+.wordWhite{
+    color: #fff;
+    text-align: center;
+}
+ header{
+    width: 100%;
+    height: 20%;
+    background:linear-gradient(72deg,#17ffcd, #6f00ff);
+    color:white;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 70px;
+  
+ }
+ article {
+    margin-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.container ,.containerRute{
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.795);
+    text-align: center;
+}
+ p,.inputText,button,a
+ {margin-top: 5%;
+     position: relative;
+     width: 80%;
+     font-size: 30px;
+     border: none;
+     padding: 2%;
+}
+p{font-size:45px;
+width: 100%;}
+
+.inputText{
+    border-radius: 5px;
+text-align: center;
+background-color: #d4d4d4fa;
+}
+button,a,label{
+    border-radius: 15px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background:linear-gradient(72deg,#17ffcd, #001aff);
+    text-decoration: none;
+}
+a:hover,button:hover{ 
+    background:linear-gradient(72deg,#9717ff,#00ff22);
+  
+}
+a{
+    display: inline-block;
+}
+.hidden{
+    display: none;
+    
+}
+.radio{
+  
+}
+.flex{
+    display: inline;
+}
+
+.containerRute{
+    margin-top: 7%;}
+
+/* .good  ,.good:hover  {
+        background:linear-gradient(72deg,#2aff17, #064714);
+    }
+.wrong{
+    background:linear-gradient(72deg,#ff4517, #470a06);
+} */
+label{
+    display: inherit;
+    font-size: 20px;
+    color: #FFF;
+    font-size: 28PX;
+    background: rgb(138, 137, 137);
+}
+label:hover{  background:linear-gradient(72deg,#2aff17, #064714);}
+
